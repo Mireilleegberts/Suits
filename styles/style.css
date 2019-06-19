@@ -227,7 +227,7 @@ button:active{
   margin-bottom: 30px;
 }
 
-.modal-content p:nth-of-type(1){
+.modal-content:nth-of-type(1){
   color:  #D42B1E;
   font-size: 22px;
 }

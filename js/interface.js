@@ -26,11 +26,15 @@ bannerTrump.onclick = function(){
 
 setTimeout(function(){
     document.querySelector('.putinGif').style.display = 'block';
-},20000);
+},30000);
 
 setTimeout(function(){
     document.querySelector('.trumpGif').style.display = 'block';
-},23000);
+},37000);
+
+setTimeout(function(){
+      window.location.href = "unplugged.html";
+}, 50000);
 
 
 
