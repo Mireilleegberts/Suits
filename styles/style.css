@@ -31,6 +31,31 @@ img {
   margin-left:5vw;
 }
 
+.swipeLeft {
+  position: absolute;
+  width: 7vw;
+  animation-name: swiping;
+  animation-duration: 2s;
+  transform: rotate(40deg);
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  right: 7vw;
+  bottom: 10vh;
+}
+
+@keyframes swiping{
+  0% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(40deg);
+  }
+
+}
+
 .label {
   position: absolute;
   font-family: 'Montserrat', sans-serif !important;
